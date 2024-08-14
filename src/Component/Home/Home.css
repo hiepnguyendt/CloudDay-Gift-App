@@ -1,0 +1,42 @@
+.custom-home__header > * {
+  max-width: 800px;
+}
+.custom-home_sidebar {
+  margin-top: -270px;
+}
+
+.intro-image {
+  /* width: 100%; */
+  aspect-ratio: 5/3;
+  /* height: 500px; */
+  background-color: white;
+  padding: 5px;
+}
+
+.react-slideshow-container .default-nav {
+  width: 40px;
+  height: 40px;
+  background-color: #a5a5a5;
+}
+
+.react-slideshow-container svg {
+  width: 12px;
+  height: 12px;
+  fill: white;
+}
+
+.react-slideshow-container + ul.indicators li {
+  width: 10px;
+  height: 10px;
+  padding: 3px;
+}
+
+@media only screen and (max-width: 768px) {
+  .custom-home {
+    margin-top: 0px;
+  }
+
+  .intro-image {
+    aspect-ratio: 4/3;
+  }
+}
